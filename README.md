@@ -7,7 +7,7 @@ En indeks og oversikt over mellomvareapper
 
 | App navn  | Github | Basisfunksjon | Status |
 | --------- | ------ | ------------- | ------ |
-| sf-arkiv  | [sf-arkiv-dokumentasjon](https://github.com/navikt/sf-arkiv-dokumentasjon) | :white_circle: -> `Postgres` | `pending` `inactive` |
+| sf-arkiv  | [sf-arkiv](https://github.com/navikt/sf-arkiv) | :white_circle: -> `Postgres` | `pending` `inactive` |
 | sf-audit  | [sf-audit](https://github.com/navikt/sf-audit) | :white_circle: -> `Auditlog` ||
 | sf-axsys  | [sf-axsys](https://github.com/navikt/sf-axsys) | :white_circle: -> `REST` | `deprecated` `inactive` |
 | sf-brukervarsel-proxy | [sf-brukervarsel-proxy](https://github.com/navikt/sf-brukervarsel-proxy) | :white_circle: -> `SOAP` | `deprecated` |

@@ -7,9 +7,9 @@ En indeks og oversikt over mellomvareapper
 
 | App navn  | Github | Basisfunksjon | Status |
 | --------- | ------ | ------------- | ------ |
-| sf-arkiv  | [sf-arkiv-dokumentasjon](https://github.com/navikt/sf-arkiv-dokumentasjon) | :white_circle: -> `Postgres` | `pending` |
+| sf-arkiv  | [sf-arkiv-dokumentasjon](https://github.com/navikt/sf-arkiv-dokumentasjon) | :white_circle: -> `Postgres` | `pending` `inactive` |
 | sf-audit  | [sf-audit](https://github.com/navikt/sf-audit) | :white_circle: -> `Auditlog` ||
-| sf-axsys  | [sf-axsys](https://github.com/navikt/sf-axsys) | :white_circle: -> `REST` | `deprecated` |
+| sf-axsys  | [sf-axsys](https://github.com/navikt/sf-axsys) | :white_circle: -> `REST` | `deprecated` `inactive` |
 | sf-brukervarsel-proxy | [sf-brukervarsel-proxy](https://github.com/navikt/sf-brukervarsel-proxy) | :white_circle: -> `SOAP` | `deprecated` |
 | sf-tps-proxy | [sf-tps-proxy](https://github.com/navikt/sf-tps-proxy) | :white_circle: -> `SOAP` | `deprecated` |
 | sf-websak | [sf-websak](https://github.com/navikt/sf-websak) | :white_circle: -> `SFTP Windows` ||
@@ -34,7 +34,7 @@ En indeks og oversikt over mellomvareapper
 | sf-arkiv-dokumentasjon | [salesforce-arkiv](https://github.com/navikt/salesforce-arkiv) | :white_circle: -> `Postgres` ||
 | sf-henvendelse-api-proxy | [sf-henvendelse-api-proxy](https://github.com/navikt/sf-henvendelse-api-proxy) | -> :white_circle: ||
 | sf-nks-brukervarsel-proxy | [sf-nks-brukervarsel-proxy](https://github.com/navikt/sf-nks-brukervarsel-proxy) | :white_circle: -> `SOAP` ||
-| sf-nks-tps-proxy | [sf-nks-tps-proxy](https://github.com/navikt/sf-nks-tps-proxy) | :white_circle: -> `SOAP` | `deprecated` |
+| sf-nks-tps-proxy | [sf-nks-tps-proxy](https://github.com/navikt/sf-nks-tps-proxy) | :white_circle: -> `SOAP` | `deprecated`  `inactive` |
 
 ### gcp
 

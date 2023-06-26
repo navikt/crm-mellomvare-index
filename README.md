@@ -1,13 +1,15 @@
 # crm-mellomvare-index
 En indeks og oversikt over mellomvareapper
 
+De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-nav-api-portal.nav.no) ([slack](https://nav-it.slack.com/app_redirect?channel=saas-tilgang-til-nav-apier))
+
 ## Apper i teamcrm ([team CRM](https://teamkatalog.nav.no/team/06a47c6b-557c-491e-b036-d6abbc77b04f))
 
 ### fss
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
-| sf-arkiv  | [sf-arkiv](https://github.com/navikt/sf-arkiv) | :white_circle: -> `Postgres` | [Lokalt arkiv](https://confluence.adeo.no/display/PTC/Lokalt+arkiv) |`pending` `inactive` | |
+| sf-arkiv  | [sf-arkiv](https://github.com/navikt/sf-arkiv) | :white_circle: -> `Postgres` | [Lokalt arkiv](https://confluence.adeo.no/display/PTC/Lokalt+arkiv) | | |
 | sf-audit  | [sf-audit](https://github.com/navikt/sf-audit) | :white_circle: -> `Auditlog` | [ArcSight ESM (Snokelogg)](https://confluence.adeo.no/pages/viewpage.action?pageId=358554596) ||[:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=62)|
 | sf-tps-proxy | [sf-tps-proxy](https://github.com/navikt/sf-tps-proxy) | :white_circle: -> `SOAP` | [TPS Proxy](https://confluence.adeo.no/display/PTC/TPS+Proxy) | `deprecated` |[:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=68)| |
 | sf-websak | [sf-websak](https://github.com/navikt/sf-websak) | :white_circle: -> `SFTP Windows` | [Websak](https://confluence.adeo.no/display/PTC/Websak)|| [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-30d&to=now&viewPanel=72) |
@@ -29,7 +31,7 @@ En indeks og oversikt over mellomvareapper
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
 | henvendelse-api-dialogv1 | [henvendelse-api-dialogv1](https://github.com/navikt/henvendelse-api-dialogv1) | `SOAP` -> `sf-henvendelse-api-proxy` | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now) |
-| sf-arkiv-dokumentasjon | [salesforce-arkiv](https://github.com/navikt/salesforce-arkiv) | :white_circle: -> `Postgres` | [Lokalt arkiv](https://confluence.adeo.no/display/PTC/Lokalt+arkiv) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=1686285096897&to=1686288035359&viewPanel=66) |
+| sf-arkiv-dokumentasjon | [salesforce-arkiv](https://github.com/navikt/salesforce-arkiv) | :white_circle: -> `Postgres` | [Lokalt arkiv](https://confluence.adeo.no/display/PTC/Lokalt+arkiv) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=1686285096897&to=1686288035359&viewPanel=66) |
 | sf-henvendelse-api-proxy | [sf-henvendelse-api-proxy](https://github.com/navikt/sf-henvendelse-api-proxy) | -> :white_circle: | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now) |
 | sf-nks-brukervarsel-proxy | [sf-nks-brukervarsel-proxy](https://github.com/navikt/sf-nks-brukervarsel-proxy) | :white_circle: -> `SOAP` | [Brukervarsel](https://confluence.adeo.no/display/PTC/Brukervarsel) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-24h&to=now&editPanel=108) |
 | sf-nks-tps-proxy | [sf-nks-tps-proxy](https://github.com/navikt/sf-nks-tps-proxy) | :white_circle: -> `SOAP` | [TPS Proxy](https://confluence.adeo.no/display/PTC/TPS+Proxy)| `deprecated`  `inactive` ||

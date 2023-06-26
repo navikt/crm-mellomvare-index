@@ -23,6 +23,7 @@ De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-
 | sf-logout  | [sf-logout](https://github.com/navikt/sf-logout ) | -> :white_circle: | [Autentisering med ID-porten](https://confluence.adeo.no/display/PTC/Autentisering+med+ID-porten) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&viewPanel=130)|
 | sf-nada-crm | [sf-nada-crm](https://github.com/navikt/sf-nada-crm) | :white_circle: -> `BigQuery` | [Informasjonsforvaltning](https://confluence.adeo.no/pages/viewpage.action?pageId=460429182) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&viewPanel=124&from=now-24h&to=now) |
 | sf-pdfgen | [sf-pdfgen](https://github.com/navikt/sf-pdfgen) | `PDF` ||||
+| sf-skjerming | [sf-skjerming](https://github.com/navikt/sf-skjerming) | `KAFKA` -> :white_circle: | [Skjermingsløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=395739530) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=89) |
 
 ## Apper i teamnks ([NKS Støtteteam](https://teamkatalog.nav.no/team/7e59af11-68bf-4485-ae7e-259966ccfc38))
 
@@ -43,7 +44,6 @@ De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-
 | nks-sf-pdl  | [nks-sf-pdl](https://github.com/navikt/nks-sf-pdl) | `KAFKA` -> `KAFKA (cache)` | [Persondataløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=358547953) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=81) |
 | nks-sf-person | [nks-sf-person](https://github.com/navikt/nks-sf-person) | `KAFKA (cache)` -> :white_circle: | [Persondataløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=358547953) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=102) |
 | sf-brukernotifikasjon | [sf-brukernotifikasjon](https://github.com/navikt/sf-brukernotifikasjon) | :white_circle: -> `KAFKA` | [Brukernotifikasjon](https://confluence.adeo.no/display/PTC/Brukernotifikasjon+-+SF+-%3E+sf-brukernotifikasjon) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=65) |
-| sf-skjerming | [kafka-nks](https://github.com/navikt/kafka-nks) | `KAFKA` -> :white_circle: | [Skjermingsløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=395739530) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=89) |
 
 ## Apper i team-dialog ([Team Salesforce arbeidsgiver](https://teamkatalog.nav.no/team/ca3111db-6766-4821-a6d9-604a3a2564fa))
 
@@ -60,8 +60,8 @@ De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-
 | crm-kafka-activity-events | [crm-kafka-activity](https://github.com/navikt/crm-kafka-activity) | :white_circle: -> `KAFKA` ||||
 | crm-kafka-activity-kurs | [crm-kafka-activity](https://github.com/navikt/crm-kafka-activity) | :white_circle: -> `KAFKA` ||||
 | crm-kafka-activity-oppgaver | [crm-kafka-activity](https://github.com/navikt/crm-kafka-activity) | :white_circle: -> `KAFKA` ||||
-| ereg-sf | [ereg-sf](https://github.com/navikt/ereg-sf) | `KAFKA` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=2)|
-| ereg-splitter-change | [ereg-splitter-change](https://github.com/navikt/ereg-splitter-change) | `REST` -> `KAFKA` ||| [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=4)|
+| ereg-sf | [ereg-sf](https://github.com/navikt/ereg-sf) | `KAFKA (cache)` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=2)|
+| ereg-splitter-change | [ereg-splitter-change](https://github.com/navikt/ereg-splitter-change) | `REST` -> `KAFKA (cache)` ||| [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=4)|
 | sf-arbeidsgiver-kontaktskjema | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Kontaktskjema](https://confluence.adeo.no/display/PTC/Kontaktskjema) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=6) |
 | sf-crm-activity-events | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=22)|
 | sf-crm-activity-oppgaver | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=23)|

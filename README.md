@@ -45,6 +45,7 @@ De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-
 | nks-sf-pdl  | [nks-sf-pdl](https://github.com/navikt/nks-sf-pdl) | `KAFKA` -> `KAFKA (cache)` | [Persondataløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=358547953) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=81) |
 | nks-sf-person | [nks-sf-person](https://github.com/navikt/nks-sf-person) | `KAFKA (cache)` -> :white_circle: | [Persondataløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=358547953) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=102) |
 | sf-brukernotifikasjon | [sf-brukernotifikasjon](https://github.com/navikt/sf-brukernotifikasjon) | :white_circle: -> `KAFKA` | [Brukernotifikasjon](https://confluence.adeo.no/display/PTC/Brukernotifikasjon+-+SF+-%3E+sf-brukernotifikasjon) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now&viewPanel=65) |
+| sf-henvendelse-db | [sf-henvendelse-db](https://github.com/navikt/sf-henvendelse-db) | :white_circle: -> `Postgres` |  |
 
 ## Apper i team-dialog ([Team Salesforce arbeidsgiver](https://teamkatalog.nav.no/team/ca3111db-6766-4821-a6d9-604a3a2564fa))
 
@@ -72,6 +73,5 @@ De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-
 | sf-stilling | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Arbeidsplassen](https://confluence.adeo.no/display/PTC/Arbeidsplassen) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=12)|
 | sf-sykefravaersstatistikk | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=20) |
 | sf-tiltak-avtale | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Tiltaksgjennomføring](https://confluence.adeo.no/pages/viewpage.action?pageId=514484870)  || [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&editPanel=8) |
-| sf-henvendelse-db | [sf-henvendelse-db](https://github.com/navikt/sf-henvendelse-db) | :white_circle: -> `Postgres` |  |
 
 

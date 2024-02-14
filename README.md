@@ -3,7 +3,7 @@ En indeks og oversikt over mellomvareapper
 
 De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-nav-api-portal.nav.no) ([slack](https://nav-it.slack.com/app_redirect?channel=saas-tilgang-til-nav-apier))
 
-## Apper i teamcrm ([team CRM](https://teamkatalog.nav.no/team/06a47c6b-557c-491e-b036-d6abbc77b04f))
+## Apper i teamcrm ([team Platforce](https://teamkatalog.nav.no/team/06a47c6b-557c-491e-b036-d6abbc77b04f))
 
 ### fss
 

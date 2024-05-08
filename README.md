@@ -32,7 +32,6 @@ De fleste apper i fss er exponerad mot saas via [saas-portalen](https://saas-to-
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
-| henvendelse-api-dialogv1 | [henvendelse-api-dialogv1](https://github.com/navikt/henvendelse-api-dialogv1) | `SOAP` -> `sf-henvendelse-api-proxy` | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now) |
 | sf-henvendelse-api-proxy | [sf-henvendelse-api-proxy](https://github.com/navikt/sf-henvendelse-api-proxy) | -> :white_circle: | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-2d&to=now) |
 | sf-nks-brukervarsel-proxy | [sf-nks-brukervarsel-proxy](https://github.com/navikt/sf-nks-brukervarsel-proxy) | :white_circle: -> `SOAP` | [Brukervarsel](https://confluence.adeo.no/display/PTC/Brukervarsel) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts?orgId=1&from=now-24h&to=now&editPanel=108) |
 

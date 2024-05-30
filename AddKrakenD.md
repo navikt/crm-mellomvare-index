@@ -69,6 +69,37 @@ spec:
       backendHost: https://sf-arkiv-dokumentasjon.dev-fss-pub.nais.io
       backendPath: /authping
 ```
+Skillnad i apiendpoints-prod.yaml i detta fall er endast host **prod**-fss-pub-nais.io och audience.
 
+### Finne AZURE_APP_CLIENT_ID
+Før att finna audience for app kan du f.eks bruke
+```
+kubectl get pods -n teamcrm --context=dev-fss
+```
+Før att finna navnet pa en pod for appen och
+```
+kubectl exec <pod-name> -n teamcrm --context=dev-fss -- env | grep AZURE_APP_CLIENT_ID
+```
+### Andra varianter på konfiguration
+Notera att headrar som ska behållas i kallet må specificeras (se exemplet ovan)
 
+Path-parameterar kan leggas til slik:
+```
+- path: /endpoint/{pathparameter}
+  backendPath: /endpoint/{pathparameter}
+```
+Query-parametrar må specificeras, feks:
+```
+  queryParams:
+    - ftpsCatalogue
+```
+Se https://doc.nais.io/auth/how-to/expose-fss-apps-with-maskinporten/?h=krakend#__tabbed_1_2
+for mer detaljer
 
+## Steg 3 - Applicera krakenD konfigurationen
+När du är färdig med konfigurationsfilerna är det bara att applicera dem med
+```
+kubectl apply -f apiendpoints-dev.yaml -n teamcrm --context=dev-gcp
+kubectl apply -f apiendpoints-prod.yaml -n teamcrm --context=prod-gcp
+```
+NB Kraken-ingreserna ska appliceras i tillsvarande gcp-sone ikke i fss

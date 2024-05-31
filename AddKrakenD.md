@@ -1,5 +1,8 @@
 # Hvordan legge til et KrakenD-endepunkt på nais
 
+En forutsetning er at team namespace:t ditt har krakend aktivert i dev-fss, prod-fss, dev-gcp, prod-gcp
+Per nå kan du be om det i f.eks. #eksponere-eksterne-apier-fra-gcp eller #nais
+
 Bruk veiledningen på doc.nais.io for å eksponere fss-apper med maskinporten, den inkluderer også oppsett for azureAD som er Salesforces metode for å få tilgang til apper på Nais:
 https://doc.nais.io/auth/how-to/expose-fss-apps-with-maskinporten/?h=krakend#__tabbed_1_2
 

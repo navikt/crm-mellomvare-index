@@ -16,7 +16,7 @@ Alternativ 2 kan brukes hvis du ikke vil legge til noe ingress til appen, men in
 
 I mitt eksempel går jeg for alternativ 1:
 
-## Steg 1 - Legg til pub.nais.io-ingresser til appen
+## Trinn 1 - Legg til pub.nais.io-ingresser til appen
 Eks:
 sf-arkiv dev.yaml:
 ```
@@ -32,7 +32,7 @@ sf-arkiv prod.yaml:
     - https://sf-arkiv-dokumentasjon.prod-fss-pub.nais.io
 ```
 
-## Steg 2 - Lage krakenD konfiguration
+## Trinn 2 - Lage krakenD konfiguration
 I mitt fall har jag valt att checka in konfigurationen i repot med øvrige nais-filer som apiendpoints-dev.yaml og apiendpoints-prod.yaml
 
 Eks apiendpoints-dev.yaml:
@@ -99,7 +99,7 @@ Query-parametrar må spesifiseres, feks:
 Se https://doc.nais.io/auth/how-to/expose-fss-apps-with-maskinporten/?h=krakend#__tabbed_1_2
 for flere detaljer
 
-## Steg 3 - Applisere krakenD konfigurationen
+## Trinn 3 - Applisere krakenD konfigurationen
 Når du er ferdig med konfigurasjonsfilene, er det bare att applisere dem med
 ```
 kubectl apply -f apiendpoints-dev.yaml -n teamcrm --context=dev-gcp

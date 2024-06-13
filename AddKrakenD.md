@@ -1,7 +1,7 @@
 # Hvordan eksponere endepunkt på fss til Salesforce
 
 For å eksponere app i fss trenger du en ingress synlig for gcp, for det er det to alternativer:
-1. Nais-ingress synlig mot GCP (pub.nais.io)
+1. Nais-ingress synlig mot GCP (se https://doc.nais.io/workloads/explanations/migrating-to-gcp/?h=#how-do-i-reach-an-application-found-on-premises-from-my-application-in-gcp)
 2. KrakenD-ingress i FSS -> Service url
 
 Om du ønsker bruke KrakenD:

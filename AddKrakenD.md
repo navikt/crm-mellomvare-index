@@ -9,7 +9,7 @@ For å eksponere app i fss trenger du en ingress synlig for gcp, for det er det 
 Du trenger en pub.nais.io ingress. Se 
 https://doc.nais.io/workloads/explanations/migrating-to-gcp/?h=#how-do-i-reach-an-application-found-on-premises-from-my-application-in-gcp
 
-## Alt.2 KrakenD-ingress
+### Alt.2 KrakenD-ingress
 
 En forutsetning for Krakend er at team namespace:t ditt har krakend aktivert i dev-fss, prod-fss
 Per nå kan du be om det i f.eks. #eksponere-eksterne-apier-fra-gcp eller #nais
@@ -19,7 +19,7 @@ https://doc.nais.io/auth/how-to/expose-fss-apps-with-maskinporten/?h=krakend#__t
 
 Du ender opp med en pub.nais.io-ingress også i dette tilfellet
 
-### Gi tilgang til Saas proxy
+## Gi tilgang til Saas proxy
 
 Du trenger gi tilgang til Salesforce sin proxy app i gcp samt Salesforce sin Entra app.
 Se https://github.com/navikt/saas-proxy/blob/master/README.md

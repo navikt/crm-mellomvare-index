@@ -23,3 +23,4 @@ Du ender opp med en pub.nais.io-ingress også i dette tilfellet
 
 Du trenger gi tilgang til Salesforce sin proxy app i gcp samt Salesforce sin Entra app.
 Se https://github.com/navikt/saas-proxy/blob/master/README.md
+Appeier må oppdater access policy i appen sin, Saas proxy er Saleforce teamen sitt ansvar å oppdatera

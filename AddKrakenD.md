@@ -6,12 +6,12 @@ For å eksponere app i fss trenger du en ingress synlig for gcp, for det er det 
 
 ### Alt.1 Nais-ingress synlig mot GCP
 
-Du trenger en pub.nais.io ingress. Se 
+Du trenger en pub.nais.io ingress. Se
 https://doc.nais.io/workloads/explanations/migrating-to-gcp/?h=#how-do-i-reach-an-application-found-on-premises-from-my-application-in-gcp
 
 ### Alt.2 KrakenD-ingress
 
-En forutsetning for Krakend er at team namespace:t ditt har krakend aktivert i dev-fss, prod-fss
+En forutsetning for Krakend er at team namespace:t ditt har krakend aktivert i dev-fss o prod-fss. 
 Per nå kan du be om det i f.eks. #eksponere-eksterne-apier-fra-gcp eller #nais
 
 Bruk veiledningen på doc.nais.io for å eksponere fss-apper med maskinporten, den inkluderer også oppsett for azureAD som er Salesforces metode for å få tilgang til apper på Nais:

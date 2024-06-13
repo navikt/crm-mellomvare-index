@@ -17,7 +17,7 @@ Per nå kan du be om det i f.eks. #eksponere-eksterne-apier-fra-gcp eller #nais
 Bruk veiledningen på doc.nais.io for å eksponere fss-apper med maskinporten, den inkluderer også oppsett for azureAD som er Salesforces metode for å få tilgang til apper på Nais:
 https://doc.nais.io/auth/how-to/expose-fss-apps-with-maskinporten/?h=krakend#__tabbed_1_2
 
-Du ender opp med en pub.nais.io-ingress også i dette tilfellet
+Du ender opp med en pub.nais.io-ingress også i dette tilfellet (gw.<dev/prod>-fss-pub.nais.io)
 
 ## Gi tilgang til Saas proxy
 

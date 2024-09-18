@@ -3,7 +3,8 @@ En indeks og oversikt over mellomvareapper
 
 ## Apper i teamcrm ([team Platforce](https://teamkatalog.nav.no/team/06a47c6b-557c-491e-b036-d6abbc77b04f))
 
-### fss
+<details open>
+<summary><b>fss</b></summary>
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
@@ -11,7 +12,10 @@ En indeks og oversikt over mellomvareapper
 | sf-audit  | [sf-audit](https://github.com/navikt/sf-audit) | :white_circle: -> `Auditlog` | [ArcSight ESM (Snokelogg)](https://confluence.adeo.no/pages/viewpage.action?pageId=358554596) ||[:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts)|
 | sf-websak | [sf-websak](https://github.com/navikt/sf-websak) | :white_circle: -> `SFTP Windows` | [Websak](https://confluence.adeo.no/display/PTC/Websak)|| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 
-### gcp
+</details>
+
+<details open>
+<summary><b>gcp</b></summary>
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
@@ -24,15 +28,21 @@ En indeks og oversikt over mellomvareapper
 | sf-geografisktilknytning | [sf-pdl-kafka](https://github.com/navikt/sf-pdl-kafka) | `KAFKA` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-msgraph | [sf-msgraph](https://github.com/navikt/sf-msgraph) |  |  |
 
+</details>
+
 ## Apper i teamnks ([NKS Støtteteam](https://teamkatalog.nav.no/team/7e59af11-68bf-4485-ae7e-259966ccfc38))
 
-### fss
+<details  open>
+<summary><b>fss</b></summary>
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
 | sf-henvendelse-api-proxy | [sf-henvendelse-api-proxy](https://github.com/navikt/sf-henvendelse-api-proxy) | -> :white_circle: | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 
-### gcp
+</details>
+
+<details open>
+<summary><b>gcp</b></summary>
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
@@ -41,15 +51,21 @@ En indeks og oversikt over mellomvareapper
 | sf-brukernotifikasjon | [sf-brukernotifikasjon](https://github.com/navikt/sf-brukernotifikasjon) | :white_circle: -> `KAFKA` | [Brukernotifikasjon](https://confluence.adeo.no/display/PTC/Brukernotifikasjon+-+SF+-%3E+sf-brukernotifikasjon) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 | sf-henvendelse-db | [sf-henvendelse-db](https://github.com/navikt/sf-henvendelse-db) | :white_circle: -> `Postgres` ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 
+</details>
+
 ## Apper i team-dialog ([Team Salesforce arbeidsgiver](https://teamkatalog.nav.no/team/ca3111db-6766-4821-a6d9-604a3a2564fa))
 
-### fss
+<details open>
+<summary><b>fss</b></summary>
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
 | sf-arbeidsgiveraktivitet | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA`<sup>+</sup> -> :white_circle: | [Arena Aktiviteter](https://confluence.adeo.no/display/PTC/Arena+Aktiviteter) || [:chart_with_upwards_trend:](https://grafana.nais.io/d/-8rGLXB4k/mellomvare-teamdialog?orgId=1&from=now-2d&to=now&viewPanel=19) |
 
-### gcp
+</details>
+
+<details open>
+<summary><b>gcp</b></summary>
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
@@ -73,4 +89,4 @@ En indeks og oversikt over mellomvareapper
 | sf-tiltak-avtale | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Tiltaksgjennomføring](https://confluence.adeo.no/pages/viewpage.action?pageId=514484870)  || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
 | sf-nada-dialog | [sf-nada-dialog](https://github.com/navikt/sf-nada-dialog) | :white_circle: -> `BigQuery` |  || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 
-
+</details>

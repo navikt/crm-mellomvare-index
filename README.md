@@ -47,8 +47,6 @@ En indeks og oversikt over mellomvareapper
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
-| nks-sf-pdl  | [nks-sf-pdl](https://github.com/navikt/nks-sf-pdl) | `KAFKA` -> `KAFKA (cache)` | [Persondataløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=358547953) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
-| nks-sf-person | [nks-sf-person](https://github.com/navikt/nks-sf-person) | `KAFKA (cache)` -> :white_circle: | [Persondataløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=358547953) | `deprecated` | [:chart_with_upwards_trend:](https://grafana.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-brukernotifikasjon | [sf-brukernotifikasjon](https://github.com/navikt/sf-brukernotifikasjon) | :white_circle: -> `KAFKA` | [Brukernotifikasjon](https://confluence.adeo.no/display/PTC/Brukernotifikasjon+-+SF+-%3E+sf-brukernotifikasjon) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 | sf-henvendelse-db | [sf-henvendelse-db](https://github.com/navikt/sf-henvendelse-db) | :white_circle: -> `Postgres` ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 

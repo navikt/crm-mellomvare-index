@@ -27,6 +27,7 @@ En indeks og oversikt over mellomvareapper
 | sf-pdl-kafka | [sf-pdl-kafka](https://github.com/navikt/sf-pdl-kafka) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-geografisktilknytning | [sf-pdl-kafka](https://github.com/navikt/sf-pdl-kafka) | `KAFKA` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-msgraph | [sf-msgraph](https://github.com/navikt/sf-msgraph) |  |  |
+| sf-pubsub | [sf-pubsub](https://github.com/navikt/sf-pubsub) |  |  |
 
 </details>
 

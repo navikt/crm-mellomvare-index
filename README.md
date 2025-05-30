@@ -24,8 +24,8 @@ En indeks og oversikt over mellomvareapper
 | sf-logout  | [sf-logout](https://github.com/navikt/sf-logout ) | -> :white_circle: | [Autentisering med ID-porten](https://confluence.adeo.no/display/PTC/Autentisering+med+ID-porten) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-nada-crm | [sf-nada-crm](https://github.com/navikt/sf-nada-crm) | :white_circle: -> `BigQuery` | [Informasjonsforvaltning](https://confluence.adeo.no/pages/viewpage.action?pageId=460429182) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-skjerming | [sf-skjerming](https://github.com/navikt/sf-skjerming) | `KAFKA` -> :white_circle: | [Skjermingsløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=395739530) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
-| sf-pdl-kafka | [sf-pdl-kafka](https://github.com/navikt/sf-pdl-kafka) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
-| sf-geografisktilknytning | [sf-pdl-kafka](https://github.com/navikt/sf-pdl-kafka) | `KAFKA` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
+| sf-pdl-kafka | [kafka-platforce](https://github.com/navikt/kafka-platforce) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
+| sf-geografisktilknytning | [kafka-platforce](https://github.com/navikt/kafka-platforce) | `KAFKA` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-msgraph | [sf-msgraph](https://github.com/navikt/sf-msgraph) |  |  | | |
 | sf-pubsub | [sf-pubsub](https://github.com/navikt/sf-pubsub) |  |  | | [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/de1ugacfas268f/sf-pubsub?orgId=1) |
 

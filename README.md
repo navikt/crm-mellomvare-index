@@ -69,8 +69,8 @@ En indeks og oversikt over mellomvareapper
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
-| ereg-sf | [ereg-sf](https://github.com/navikt/ereg-sf) | `KAFKA(cache)` -> :white_circle: | [Enhetsregisteret](https://confluence.adeo.no/display/PTC/Enhetsregisteret) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
-| ereg-splitter-change | [ereg-splitter-change](https://github.com/navikt/ereg-splitter-change) | `REST` -> `KAFKA(cache)` | [Enhetsregisteret](https://confluence.adeo.no/display/PTC/Enhetsregisteret) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
+| ereg-sf | [ereg-sf](https://github.com/navikt/ereg-sf) | `KAFKA (cache)` -> :white_circle: | [Enhetsregisteret](https://confluence.adeo.no/display/PTC/Enhetsregisteret) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
+| ereg-splitter-change | [ereg-splitter-change](https://github.com/navikt/ereg-splitter-change) | `REST (fil)` -> `KAFKA (cache)` | [Enhetsregisteret](https://confluence.adeo.no/display/PTC/Enhetsregisteret) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | sf-dialogmote | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Modia Dialogmøte](https://confluence.adeo.no/pages/viewpage.action?pageId=439124041) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
 | sf-ia-behovsvurdering | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [FIA](https://confluence.adeo.no/display/PTC/FIA) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | sf-ia-leveranse | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [FIA](https://confluence.adeo.no/display/PTC/FIA) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|

@@ -38,7 +38,7 @@ En indeks og oversikt over mellomvareapper
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
-| sf-henvendelse-api-proxy | [sf-henvendelse-api-proxy](https://github.com/navikt/sf-henvendelse-api-proxy) | -> :white_circle: | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
+| sf-henvendelse-api-proxy | [sf-henvendelse-api-proxy](https://github.com/navikt/sf-henvendelse-api-proxy) | `REST` -> :white_circle: | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 
 </details>
 
@@ -48,6 +48,7 @@ En indeks og oversikt over mellomvareapper
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
 | sf-brukernotifikasjon | [sf-brukernotifikasjon](https://github.com/navikt/sf-brukernotifikasjon) | :white_circle: -> `KAFKA` | [Brukernotifikasjon](https://confluence.adeo.no/display/PTC/Brukernotifikasjon+-+SF+-%3E+sf-brukernotifikasjon) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
+| sf-henvendelse-api-proxy | [sf-henvendelse-api-proxy](https://github.com/navikt/sf-henvendelse-api-proxy) | `REST` -> :white_circle: | [Henvendelse API](https://confluence.adeo.no/display/PTC/Salesforce+Henvendelse+API) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 | sf-henvendelse-db | [sf-henvendelse-db](https://github.com/navikt/sf-henvendelse-db) | :white_circle: -> `Postgres` ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/cdy25bbf33ls0b/mellomvare-nks) |
 
 </details>
@@ -68,15 +69,15 @@ En indeks og oversikt over mellomvareapper
 
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
-| crm-kafka-activity-events | [crm-kafka-activity](https://github.com/navikt/crm-kafka-activity) | :white_circle: -> `KAFKA` | [Datavarehus](https://confluence.adeo.no/display/PTC/Datavarehus) ||[:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
-| crm-kafka-activity-kurs | [crm-kafka-activity](https://github.com/navikt/crm-kafka-activity) | :white_circle: -> `KAFKA` | [Datavarehus](https://confluence.adeo.no/display/PTC/Datavarehus) ||[:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
-| crm-kafka-activity-oppgaver | [crm-kafka-activity](https://github.com/navikt/crm-kafka-activity) | :white_circle: -> `KAFKA` | [Datavarehus](https://confluence.adeo.no/display/PTC/Datavarehus) ||[:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | ereg-sf | [ereg-sf](https://github.com/navikt/ereg-sf) | `KAFKA(cache)` -> :white_circle: | [Enhetsregisteret](https://confluence.adeo.no/display/PTC/Enhetsregisteret) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | ereg-splitter-change | [ereg-splitter-change](https://github.com/navikt/ereg-splitter-change) | `REST` -> `KAFKA(cache)` | [Enhetsregisteret](https://confluence.adeo.no/display/PTC/Enhetsregisteret) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | sf-dialogmote | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Modia Dialogmøte](https://confluence.adeo.no/pages/viewpage.action?pageId=439124041) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
 | sf-ia-behovsvurdering | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [FIA](https://confluence.adeo.no/display/PTC/FIA) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | sf-ia-leveranse | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [FIA](https://confluence.adeo.no/display/PTC/FIA) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | sf-ia-sak| [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [FIA](https://confluence.adeo.no/display/PTC/FIA) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
+| sf-ia-samarbeidsplan| [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [FIA](https://confluence.adeo.no/display/PTC/FIA) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
+| sf-nada-dialog | [sf-nada-dialog](https://github.com/navikt/sf-nada-dialog) | :white_circle: -> `BigQuery` |  || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
+| sf-pubsub-employer-activity | [sf-pubsub](https://github.com/navikt/sf-pubsub) | :white_circle: -> `Kafka` | [Datavarehus](https://confluence.adeo.no/display/PTC/Datavarehus) | | [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/de1ugacfas268f/sf-pubsub?orgId=1) |
 | sf-stilling | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Arbeidsplassen](https://confluence.adeo.no/display/PTC/Arbeidsplassen) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 | sf-sykefravaersstatistikk-bransje | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
 | sf-sykefravaersstatistikk-land | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
@@ -86,6 +87,5 @@ En indeks og oversikt over mellomvareapper
 | sf-sykefravaersstatistikk-sektor | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
 | sf-sykefravaersstatistikk-virksomhet | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
 | sf-tiltak-avtale | [kafka-dialog](https://github.com/navikt/kafka-dialog) | `KAFKA` -> :white_circle: | [Tiltaksgjennomføring](https://confluence.adeo.no/pages/viewpage.action?pageId=514484870)  || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog) |
-| sf-nada-dialog | [sf-nada-dialog](https://github.com/navikt/sf-nada-dialog) | :white_circle: -> `BigQuery` |  || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/-8rGLXB4k/mellomvare-teamdialog)|
 
 </details>

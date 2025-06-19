@@ -9,7 +9,6 @@ En indeks og oversikt over mellomvareapper
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
 | sf-arkiv  | [sf-arkiv](https://github.com/navikt/sf-arkiv) | :white_circle: -> `Postgres` | [Lokalt arkiv](https://confluence.adeo.no/display/PTC/Lokalt+arkiv) | | [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
-| sf-audit  | [sf-audit](https://github.com/navikt/sf-audit) | :white_circle: -> `Auditlog` | [ArcSight ESM (Snokelogg)](https://confluence.adeo.no/pages/viewpage.action?pageId=358554596) ||[:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts)|
 | sf-websak | [sf-websak](https://github.com/navikt/sf-websak) | :white_circle: -> `SFTP Windows` | [Websak](https://confluence.adeo.no/display/PTC/Websak)|| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 
 </details>
@@ -20,12 +19,15 @@ En indeks og oversikt over mellomvareapper
 | App navn  | Github | Basisfunksjon | Confluence | Status | Grafana |
 | --------- | ------ | ------------- | :--------: | ------ | :-----: |
 | saas-proxy | [saas-proxy](https://github.com/navikt/saas-proxy) | :white_circle: -> `REST` | [Integrasjoner mot GCP](https://confluence.adeo.no/display/PTC/Integrasjoner+mot+GCP) ||[:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/fdwrbrxreg3k0f/saas-proxy)|
+| sf-audit-logging  | [sf-audit-logging](https://github.com/navikt/sf-audit-logging) | :white_circle: -> `Auditlog` | [ArcSight ESM (Snokelogg)](https://confluence.adeo.no/pages/viewpage.action?pageId=358554596) ||[:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts)|
+| sf-eventlog  | [sf-eventlog](https://github.com/navikt/sf-eventlog) | :white_circle: -> `Grafana` | | | [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
+| sf-geografisktilknytning | [kafka-platforce](https://github.com/navikt/kafka-platforce) | `KAFKA` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-logout  | [sf-logout](https://github.com/navikt/sf-logout ) | -> :white_circle: | [Autentisering med ID-porten](https://confluence.adeo.no/display/PTC/Autentisering+med+ID-porten) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-nada-crm | [sf-nada-crm](https://github.com/navikt/sf-nada-crm) | :white_circle: -> `BigQuery` | [Informasjonsforvaltning](https://confluence.adeo.no/pages/viewpage.action?pageId=460429182) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
-| sf-skjerming | [kafka-platforce](https://github.com/navikt/kafka-platforce) | `KAFKA` -> :white_circle: | [Skjermingsløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=395739530) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 | sf-pdl-kafka | [kafka-platforce](https://github.com/navikt/kafka-platforce) | `KAFKA` -> :white_circle: ||| [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
-| sf-geografisktilknytning | [kafka-platforce](https://github.com/navikt/kafka-platforce) | `KAFKA` -> :white_circle: | || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
-| sf-pubsub | [sf-pubsub](https://github.com/navikt/sf-pubsub) |  |  | | [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/de1ugacfas268f/sf-pubsub?orgId=1) |
+| sf-pubsub-application-event | [sf-pubsub](https://github.com/navikt/sf-pubsub) | :white_circle: -> `Grafana` |  | | [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/de1ugacfas268f/sf-pubsub?orgId=1) |
+| sf-pubsub-concur | [sf-pubsub](https://github.com/navikt/sf-pubsub) | :white_circle: -> `Grafana` |  | | [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/de1ugacfas268f/sf-pubsub?orgId=1) |
+| sf-skjerming | [kafka-platforce](https://github.com/navikt/kafka-platforce) | `KAFKA` -> :white_circle: | [Skjermingsløsningen](https://confluence.adeo.no/pages/viewpage.action?pageId=395739530) || [:chart_with_upwards_trend:](https://grafana.nav.cloud.nais.io/d/2grjuRxnz/crm-mellomvare-alerts) |
 
 </details>
 

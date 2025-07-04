@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script to run in folder with build.gradle file to fetch documentation snippets from local instance of crm-mellomvare-index/dep-docs and generate a dependencies.md file from them
+
 # Full path to dep-docs
 DEP_DOCS_PATH="../crm-mellomvare-index/dep-docs"
 

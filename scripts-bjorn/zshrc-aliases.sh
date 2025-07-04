@@ -24,3 +24,4 @@ alias enter=~/bin/enter.sh
 alias logfind=~/bin/logfind.sh
 alias rescale=~/bin/rescale.sh
 alias logs=~/bin/logs.sh
+alias gen-dep-md=~/bin/gen-dep-md.sh
